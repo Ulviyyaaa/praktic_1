@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.mainNav {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  background-color: wheat;
+  .navGo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    .navLogo {
+      display: flex;
+    }
+    .navLi {
+      .navLiOne {
+        color: black;
+        margin-left: 20px;
+      }
+    }
+  }
+}
